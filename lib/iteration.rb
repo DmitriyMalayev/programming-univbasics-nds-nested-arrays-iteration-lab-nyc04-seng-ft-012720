@@ -5,7 +5,7 @@ row_index = 0
 while row_index < src.count do 
     element_index = 0 
     while element_index < src.count[row_index] do 
-        puts "I love src[raw_index] and src[raw_index[raw_index + 1]]"   
+        print "I love src[raw_index] and src[raw_index[raw_index + 1]]"   
         element_index += 1
     end
     row_index +=1 
