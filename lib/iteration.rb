@@ -26,7 +26,7 @@ def find_greater_pair(src)
     end
       row += 1
   end
-  array
+  return array
 end
 
 
