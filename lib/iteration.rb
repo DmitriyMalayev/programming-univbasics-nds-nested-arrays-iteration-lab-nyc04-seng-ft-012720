@@ -9,16 +9,15 @@ end
 end
 
 def find_greater_pair(src)
- 
-  row = 0
+  row_index = 0
   array = []
-  while row < src.length do
-    if src[row][0] > src[row][1]
-      array.push(src[row][0])
+  while row_index < src.length do
+    if src[row_index][0] > src[row_index][1]
+      array.push(src[row_index][0])
     else
-      array.push(src[row][1])
+      array.push(src[row_index][1])
     end
-      row += 1
+      row_index += 1
   end
   array
 end
