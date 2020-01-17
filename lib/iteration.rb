@@ -6,7 +6,7 @@ while row_index < src.count do
 end 
     return array  
 end 
-
+end 
 
 
 def total_even_pairs(src)
