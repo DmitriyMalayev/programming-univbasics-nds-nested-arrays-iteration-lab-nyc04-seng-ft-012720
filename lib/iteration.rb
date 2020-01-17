@@ -1,15 +1,10 @@
-def join_ingredients(src)
-
 array = [] 
 row_index = 0 
-while row_index < src.count do 
-    element_index = 0 
-    while element_index < src.count[row_index] do 
-        print "I love src[raw_index] and src[raw_index[raw_index + 1]]"   
-        element_index += 1
-    end
+while row_index < src.count do
+    array << "I love #{src[row_index][0]} and #{src[row_index][1]}"   
     row_index +=1 
-return array 
+end 
+    return array  
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
