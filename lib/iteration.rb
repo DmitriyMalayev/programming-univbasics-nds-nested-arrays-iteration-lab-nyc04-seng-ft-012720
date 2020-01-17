@@ -11,9 +11,6 @@ while row_index < src.count do
     row_index +=1 
 end 
   
-  
-  
-  
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
   # Build a new Array that contains strings where each pair of foods is
@@ -30,6 +27,8 @@ def find_greater_pair(src)
             if src[1][0] > src[1][1] do 
                 array << src[1][0]
               end 
+              print array 
+              element_index +=1 
             row_index +=1 
         end 
            
